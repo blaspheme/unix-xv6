@@ -49,7 +49,8 @@ SECTIONS
 
 /**********************************
  * 参考来源：https://zhuanlan.zhihu.com/p/46838542
- * JOS 2018版本linker script问题，解决了高版本gcc编译报错的问题。
+ * JOS 2018版本linker script问题：2018版本的JOS和2017版本相比，修改了linker script，解决了高版本gcc编译报错的问题。
+ * 然而，在做lab3的时候，这个linker script仍然有问题。
  * 更改为注释以下部分
 	.bss : {
 		PROVIDE(edata = .);
